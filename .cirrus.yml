@@ -12,7 +12,7 @@ env:
   CIRRUS_CLONE_DEPTH: "1"
 
 task:
-  name: "Nusantara Project Build"
+  name: "Qassa Build Mido 4.9"
   stateful: true
   timeout_in: 120m
   container:
@@ -24,8 +24,8 @@ task:
      - ./script/load_ccache.sh
 
   Repo-pribadi_script:
-     - git config --global user.name "ZenkaBestia"
-     - git config --global user.email "z.mail.6600@gmail.com"
+     - git config --global user.name "toukashishigaya"
+     - git config --global user.email "ken12345.097@gmail.com"
      - ./script/esesha.sh
 
   Sinkronasi-rom_script:
