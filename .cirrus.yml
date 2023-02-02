@@ -24,8 +24,8 @@ task:
      - ./script/load_ccache.sh
 
   Repo-pribadi_script:
-     - git config --global user.name "toukashishigaya"
-     - git config --global user.email "ken12345.097@gmail.com"
+     - git config --global user.name "mocarafee"
+     - git config --global user.email "harif.rp05@gmail.com"
      - ./script/esesha.sh
 
   Sinkronasi-rom_script:
