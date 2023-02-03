@@ -1,5 +1,6 @@
 # sync rom
 repo init -u https://github.com/DerpFest-AOSP/manifest.git -b 13 -g default,-mips,-darwin,-notdefault
+rm -rf lm
 git clone git@github.com:Mocaness/local_manifests.git -b 4.4-13 lm
 rm -rf .repo/local_manifests
 cp -r lm/local_manifests .repo/
