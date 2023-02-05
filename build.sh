@@ -17,6 +17,7 @@ mkfifo reading
 tee "${BUILDLOG}" < reading &
 build_message "Building Started"
 progress &
+export Iyakah=ya
 mka derp -j16  > reading & sleep 95m
 
 retVal=$?
