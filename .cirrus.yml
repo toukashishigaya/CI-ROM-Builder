@@ -12,7 +12,7 @@ env:
   CIRRUS_CLONE_DEPTH: "1"
 
 task:
-  name: "DF whyded"
+  name: "Qassa whyded"
   stateful: true
   timeout_in: 120m
   container:
