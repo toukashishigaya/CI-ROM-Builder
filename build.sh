@@ -1,6 +1,7 @@
 # sync rom
 repo init --depth=1 --no-repo-verify -u https://github.com/LineageOS/android.git -b lineage-17.1 -g default,-mips,-darwin,-notdefault
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j16
+rm -rf device/xiaomi/whyred/* device/xiaomi/sdm660-common/* kernel/xiaomi/sdm660/* vendor/xiaomi/*
 git clone --depth=1 https://github.com/LineageOS/android_device_xiaomi_whyred -b lineage-17.1 device/xiaomi/whyred
 git clone --depth=1 https://github.com/LineageOS/android_device_xiaomi_sdm660-common -b lineage-17.1 device/xiaomi/sdm660-common
 git clone --depth=1 https://github.com/LineageOS/android_kernel_xiaomi_sdm660 -b lineage-17.1 kernel/xiaomi/sdm660
