@@ -12,7 +12,7 @@ env:
   CIRRUS_CLONE_DEPTH: "1"
 
 task:
-  name: "Qassa Build Mido 4.9"
+  name: "los whyded test"
   stateful: true
   timeout_in: 120m
   container:
