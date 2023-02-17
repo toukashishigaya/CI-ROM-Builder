@@ -1,10 +1,10 @@
 # sync rom
 repo init --depth=1 --no-repo-verify -u ssh://git@github.com/keepQASSA/manifest -b Q -g default,-mips,-darwin,-notdefault
+rm -rf lm
+git clone git@github.com:Mocaness/local_manifests.git -b qassa-mido lm
+rm -rf .repo/local_manifests
+cp -r lm/local_manifests .repo/
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j16
-git clone --depth=1 ssh://git@github.com/Mocaness/device_xiaomi_mido -b qassa-4.9 device/xiaomi/mido
-git clone --depth=1 ssh://git@github.com/Mocaness/device_xiaomi_mido-kernel -b 10 device/xiaomi/mido-kernel
-git clone --depth=1 ssh://git@github.com/Mocaness/MidoKernel -b kizuna-17.1-C17 kernel/xiaomi/mido
-git clone --depth=1 ssh://git@github.com/Mocaness/vendor_xiaomi_mido -b qassa-4.9 vendor/xiaomi
 
 # build rom
 source $CIRRUS_WORKING_DIR/script/config
