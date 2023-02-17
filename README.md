@@ -1,3 +1,3 @@
 # Ci-Builder
 a
-whyded ikz
+whyded ikz i forgor to clone gallerygo
