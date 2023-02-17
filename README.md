@@ -1,3 +1,3 @@
 #Ci-Builder
 
-memedo is bek
+memedo is bek, now with proper hals
