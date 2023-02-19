@@ -2,3 +2,5 @@
 
 memedo is bek, now with proper hals, fak i forgor the remote changes again
 and now forgor to inherit gallerygo
+
+3.18 part 2
