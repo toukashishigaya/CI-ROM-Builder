@@ -7,3 +7,4 @@ and now forgor to inherit gallerygo
 3.18 part 3, because forgor the vendor path
 3.18 part 4 for kernel changing
 3.18 part 5 trying htop
+3.18 part 6 i forgor again to pick to correct branch
