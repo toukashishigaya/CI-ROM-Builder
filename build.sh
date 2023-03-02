@@ -11,7 +11,7 @@ source $CIRRUS_WORKING_DIR/script/config
 timeStart
 
 . build/envsetup.sh
-lunch cr_whyred-userdebug
+lunch carbon_whyred-userdebug
 mkfifo reading
 tee "${BUILDLOG}" < reading &
 build_message "Building Started"
