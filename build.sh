@@ -1,5 +1,5 @@
 # sync rom
-repo init -u https://github.com/CarbonROM/android.git -b cr-11.0 -g default,-mips,-darwin,-notdefault
+repo init -u https://github.com/CarbonROM/android.git -b cr-9.0 -g default,-mips,-darwin,-notdefault
 rm -rf lm
 git clone git@github.com:Mocaness/local_manifests.git -b cr-a11-whyred lm
 rm -rf .repo/local_manifests
