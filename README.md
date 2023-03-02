@@ -6,3 +6,4 @@ forgor to remove remove-project
 lemao what a derped
 next trigger
 uuh forgor pixel interface
+now forgor to rename kernel prebuilt
