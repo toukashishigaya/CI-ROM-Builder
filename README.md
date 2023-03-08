@@ -7,3 +7,6 @@ alright pure, second attempt, third attempt, fourth attempt
 Well unfortunately it still didn't going good as well, then come back to old hax
 But nvm let's build again 
 Let's try again w/o new gpu driver
+
+
+init a12
