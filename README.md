@@ -10,3 +10,4 @@ Let's try again w/o new gpu driver
 
 
 init a12
+trigger pt 1
