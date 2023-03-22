@@ -65,6 +65,6 @@ if [[ $c == *'repo sync has finished'* ]]
 then true
 else
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j$(nproc --all)
-bash $CIRRUS_WORKING_DIR/script/pickme.sh
+#bash $CIRRUS_WORKING_DIR/script/pickme.sh
 fi
 rm -rf Sync-rom.log

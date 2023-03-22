@@ -1,8 +1,1 @@
-cd system/core
-git fetch https://github.com/DF-Whyred/system_core b4809a1f9a89816675e3f1e9135748459d6fc05a
-git cherry-pick FETCH_HEAD
-cd ../../
-cd kernel/xiaomi/whyred
-git fetch https://github.com/Mocaness/WhyredKernel dedd0eac6f7baf7923ec3b987d922e23a21d11ed
-git cherry-pick FETCH_HEAD
-cd ../../../
+curl https://github.com/DerpFest-12/system_core/commit/1eb28844c7a9979f449864fce7da51f5dce691e7.patch | git -C "system/core" am
