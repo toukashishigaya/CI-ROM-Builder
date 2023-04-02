@@ -12,7 +12,7 @@ env:
   CIRRUS_CLONE_DEPTH: "1"
 
 task:
-  name: "DerpFest 12 Build"
+  name: "Qassa Whyded"
   stateful: true
   timeout_in: 120m
   container:
