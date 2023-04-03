@@ -1,0 +1,1 @@
+curl https://github.com/Magma-WIP/build_soong/commit/bcd1bb529132905cf55e72f5a2a6ba19a99f60ac.patch | git -C "build/soong" am && curl https://github.com/Magma-WIP/build_soong/commit/dc3365fbde3b2a5773e655f690bb073967100795.patch | git -C "build/soong" am
