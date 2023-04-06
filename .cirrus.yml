@@ -12,7 +12,7 @@ env:
   CIRRUS_CLONE_DEPTH: "1"
 
 task:
-  name: "BP 13 Build"
+  name: "BP 13 K44 Build"
   stateful: true
   timeout_in: 120m
   container:

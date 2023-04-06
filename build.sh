@@ -2,7 +2,7 @@
 repo init --depth=1 --no-repo-verify -u  https://github.com/BiancaProject/android.git -b 13 -g default,-mips,-darwin,-notdefault
 rm -rf lm
 rm -rf .repo/local_manifests
-git clone git@github.com:Mocaness/local_manifests.git -b bianca-t-softfloor lm
+git clone git@github.com:Mocaness/local_manifests.git -b bianca-t-44 lm
 cp -r lm/local_manifests .repo/
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j16
 
