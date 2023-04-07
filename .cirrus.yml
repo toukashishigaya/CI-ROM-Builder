@@ -12,7 +12,7 @@ env:
   CIRRUS_CLONE_DEPTH: "1"
 
 task:
-  name: "DF Whyded Off"
+  name: "DF Whyded CI 4.19"
   stateful: true
   timeout_in: 120m
   container:
