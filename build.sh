@@ -7,7 +7,7 @@ cp -r lm/local_manifests .repo/
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j16
 
 # build rom
-curl -Lo barom.sh https://raw.githubusercontent.com/alanndz/barom/main/barom.sh
+curl -Lo barom.sh https://github.com/alanndz/barom/raw/5828209f862ce2648c54ec3c7c5ba4fed11024cb/barom.sh
 chmod +x barom.sh
 ./barom.sh -t ${TG_CHAT_ID} ${TG_TOKEN}
 ./barom.sh --ccache-dir "${WORKDIR}/ccache" --ccache-size 15G
