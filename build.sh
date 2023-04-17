@@ -1,5 +1,5 @@
 # sync rom
-repo init --depth=1 --no-repo-verify -u  https://github.com/BiancaProject/android.git -b 13 -g default,-mips,-darwin,-notdefault
+repo init --depth=1 --no-repo-verify -u  https://github.com/BiancaProject/android.git -b 13-rebase-android-13.0.0_r38 -g default,-mips,-darwin,-notdefault
 rm -rf lm
 rm -rf .repo/local_manifests
 git clone git@github.com:Mocaness/local_manifests.git -b bianca-t-softfloor lm
