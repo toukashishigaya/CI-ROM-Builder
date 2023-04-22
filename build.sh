@@ -1,5 +1,5 @@
 # sync rom
-repo init --depth=1 --no-repo-verify -u https://github.com/DerpFest-12/manifest.git -b 12.1 -g default,-mips,-darwin,-notdefault
+repo init --depth=1 --no-repo-verify -u https://github.com/DerpFest-12L/manifest.git -b 12.1 -g default,-mips,-darwin,-notdefault
 rm -rf lm
 rm -rf .repo/local_manifests
 git clone git@github.com:Mocaness/local_manifests.git -b 4.4-12 lm
