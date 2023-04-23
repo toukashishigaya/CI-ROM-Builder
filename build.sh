@@ -5,7 +5,7 @@ rm -rf .repo/local_manifests
 git clone git@github.com:Mocaness/local_manifests.git -b 4.4-12 lm
 cp -r lm/local_manifests .repo/
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j16
-bash $CIRRUS_WORKING_DIR/script/pickme.sh
+#bash $CIRRUS_WORKING_DIR/script/pickme.sh
 
 # build rom
 curl -Lo barom.sh https://github.com/alanndz/barom/raw/5828209f862ce2648c54ec3c7c5ba4fed11024cb/barom.sh
