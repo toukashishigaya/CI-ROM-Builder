@@ -11,7 +11,7 @@ curl -Lo barom.sh https://github.com/alanndz/barom/raw/5828209f862ce2648c54ec3c7
 chmod +x barom.sh
 ./barom.sh -t ${TG_CHAT_ID} ${TG_TOKEN}
 ./barom.sh --ccache-dir "${WORKDIR}/ccache" --ccache-size 15G
-./barom.sh --device whyred --lunch whyred-user
+./barom.sh -n BiancaProject --device whyred --lunch whyred-user
 ./barom.sh -b -j 8 -u gof --timer 92m -- m dudu
 
 # end
