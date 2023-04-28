@@ -13,6 +13,6 @@ chmod +x barom.sh
 ./barom.sh -t ${TG_CHAT_ID} ${TG_TOKEN}
 ./barom.sh --ccache-dir "${WORKDIR}/ccache" --ccache-size 15G
 ./barom.sh --device whyred --lunch derp_whyred-userdebug
-./barom.sh -b -j 8 -u gof --timer 89m -- m derp
+./barom.sh -b -j 8 -u gof --timer 95m -- m derp
 
 # end
