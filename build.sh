@@ -14,5 +14,6 @@ chmod +x barom.sh
 ./barom.sh --ccache-dir "${WORKDIR}/ccache" --ccache-size 15G
 ./barom.sh --device whyred --lunch derp_whyred-userdebug
 ./barom.sh -b -j 8 -u gof --timer 95m -- m derp
+./barom.sh --sft result/Derp*
 
 # end
